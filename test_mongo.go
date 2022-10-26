@@ -39,6 +39,9 @@ type Student struct {
 	Age  int
 }
 
+func test() {
+	//aaaa
+}
 func insertOne() {
 	s := Student{Name: "tom", Age: 20}
 	c2 := client.Database("golang_db").Collection("student")
